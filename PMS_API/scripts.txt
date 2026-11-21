@@ -21,3 +21,7 @@ Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.27
   }
   Model
   
+  Install-Package Swashbuckle.AspNetCore
+  //if error
+  Uninstall-Package Swashbuckle.AspNetCore
+Install-Package Swashbuckle.AspNetCore -Version 9.0.6
